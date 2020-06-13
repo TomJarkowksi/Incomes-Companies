@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.block:hover {
+    background-color: #4CAF50;
+}
+
+.active {
+    background-color: rgb(46, 105, 48);
+}
+
+
+
+.details {
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: none;
+}
+
+.details__card {
+    width: 40%;
+    min-width: 320px;
+    background-color: white;
+    border: #4CAF50 2px solid;
+    margin: 20px;
+    min-height: 300px;
+    max-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 25px;
+
+}
+
+.details__card h2 {
+    margin: 30px 0;
+}
+
+.details__card p {
+    margin: 15px 0;
+}
+
+
+.details__button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 12px;
+    background: none;
+    background-color: white;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.details__button:hover {
+    background-color: #4CAF50;
+
+}
+
+/*# sourceMappingURL=/init.e74bdbc0.css.map */
