@@ -64,7 +64,11 @@
 }
 
 .customers tr:hover {
-    background-color: #ddd;
+    background-color: #4CAF50;
+}
+
+.customers tr {
+    cursor: pointer;
 }
 
 .customers th {
@@ -170,17 +174,6 @@ p span {
 
 .button-style:hover {
     background-color: #4CAF50;
-}
-
-.id {
-    cursor: pointer;
-
-}
-
-
-.id:hover {
-    background-color: #4CAF50;
-
 }
 
 
